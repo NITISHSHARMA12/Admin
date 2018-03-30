@@ -1,0 +1,150 @@
+body, html {
+    height: 100%
+}
+
+/*===================================nav================================*/
+@media (min-width: 768px){
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+}
+.navbar-inverse { background-color:rgba(255, 255, 255, 0.08);}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: rgba(255, 255, 255, 0.08);}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color:rgba(255, 255, 255, 0.08);}
+.dropdown-menu { background-color: rgba(255, 255, 255, 0.10); }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: rgba(255, 255, 255, 0.28);}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: rgba(255, 255, 255, 0.07);}
+.navbar-inverse .navbar-brand { color:#f5f5f5;}
+.navbar-inverse .navbar-brand:hover { color: #f5f5f5}
+.navbar-inverse .navbar-nav>li>a { color: #f5f5f5}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #ffffff}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #f5f5f5}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #f5f5f5}
+.dropdown-menu>li>a { color: #f5f5f5}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #f5f5f5; }
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #4285F4; }
+@media (max-width: 767px){
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #4285F4;
+    background-color: transparent;
+}
+}
+
+
+
+
+.block-content {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.block-content img {
+    opacity: 1;
+    transition: 0.3s;
+}
+.bs-text-down {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px 15px;
+    color: #333;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    position: absolute;
+    bottom: 45px;
+    width: auto;
+    margin: 0px 45px;
+    height: 80px;
+    transform: translateZ(0px);
+    box-shadow: 0px 0px 1px transparent;
+    backface-visibility: hidden;
+    width: 75%;
+}
+.text-center {
+    text-align: center;
+}
+.bs-text-down:before {
+    content: '';
+    position: absolute;
+    border: rgba(255,255,255,0.5) solid 3px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: top, right, bottom, left;
+    transition-property: top, right, bottom, left;
+}
+.bs-text-down {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px 15px;
+    color: #333;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    position: absolute;
+    bottom: 45px;
+    width: auto;
+    margin: 0px 45px;
+    height: 80px;
+    transform: translateZ(0px);
+    box-shadow: 0px 0px 1px transparent;
+    backface-visibility: hidden;
+    width: 75%;
+}
+.block-content:hover .bs-text-down:before {
+    top: -7px;
+    right: -7px;
+    bottom: -7px;
+    left: -7px;
+}
+.bs-text-down span {
+    text-transform: none;
+    font-family: Raleway;
+    font-size: 16px;
+    display: block;
+    font-weight: 400;
+}
+@media (min-width: 768px){
+.modal-dialog {
+    width: 432px;
+    margin: 30px auto;
+	}
+}
+
+
+
+.bgimg{
+	background-image: url('../img/background.jpg');
+	height: 100%;
+	background-position: center;
+	background-size:cover;
+	background-position:center;	
+	position: relative;
+	color: white;
+	
+}
+.padding_top{
+	padding-top:67px;
+}
+.middle {
+    text-align: center;
+	padding-top: 212px;
+}
+hr {
+    margin: auto;
+    width: 10%;
+}
+.error{
+	color:red;
+}
